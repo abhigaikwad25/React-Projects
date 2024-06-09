@@ -33,6 +33,9 @@ import Github, { githubInfoLoader } from './components/Github/Github.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    //it a outlet work as a root element 
+    //in layout file define a <Header/><Outlet /><Footer /> in given sequence 
+    //in outlet define changable items like home, about, contact, github those nesting elements are there  
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
       <Route path='about' element={<About />} />
