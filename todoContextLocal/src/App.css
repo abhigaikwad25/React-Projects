@@ -1,0 +1,32 @@
+.bg-success {
+  background-color: #c6e9a7 !important;
+}
+
+.bg-secondary {
+  background-color: #ccbed7 !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(255, 255, 255, .5) !important;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through !important;
+}
+
+.border-0 {
+  border: 0 !important;
+}
+
+.form-control[readonly] {
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
+/* TodoForm.css */
+.todo-input {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  padding: 0.375rem 1rem; /* equivalent to py-1.5 px-3 */
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* equivalent to duration-150 */
+}
